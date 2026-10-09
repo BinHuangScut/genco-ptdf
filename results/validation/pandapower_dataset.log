@@ -1,0 +1,14 @@
+case14_ieee: verified 500/3000 base groups
+case14_ieee: verified 1000/3000 base groups
+case14_ieee: verified 1500/3000 base groups
+case14_ieee: verified 2000/3000 base groups
+case14_ieee: verified 2500/3000 base groups
+case14_ieee: verified 3000/3000 base groups
+{"grid": "case14_ieee", "base_points": 3000, "paired_states": 24000, "solver": "pandapower.pypower.newtonpf", "base_voltage_max_pu": 1.942097114741681e-15, "base_ptdf_max_abs": 2.9801924483763287e-08, "paired_residual_max_pu": 9.999315264686004e-11}
+case118_ieee: verified 500/3000 base groups
+case118_ieee: verified 1000/3000 base groups
+case118_ieee: verified 1500/3000 base groups
+case118_ieee: verified 2000/3000 base groups
+case118_ieee: verified 2500/3000 base groups
+case118_ieee: verified 3000/3000 base groups
+{"grid": "case118_ieee", "base_points": 3000, "paired_states": 24000, "solver": "pandapower.pypower.newtonpf", "base_voltage_max_pu": 1.8894025815473948e-14, "base_ptdf_max_abs": 5.96013975950882e-08, "paired_residual_max_pu": 1.0542622330689255e-11}

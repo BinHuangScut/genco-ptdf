@@ -1,0 +1,24 @@
+[
+  {
+    "grid": "case14_ieee",
+    "base_points": 3000,
+    "paired_states": 24000,
+    "solver": "pandapower.pypower.newtonpf",
+    "base_voltage_max_pu": 1.942097114741681e-15,
+    "base_ptdf_max_abs": 2.9801924483763287e-08,
+    "paired_residual_max_pu": 9.999315264686004e-11,
+    "solver_source_sha256": "e3c53f1337fd8ea8d776ddc7822b7847513b3a4482d4a6808822681a67edd804",
+    "dataset_sha256": "0af363565eb587ca61fe62924e54ca7f84c0b758f6762191ca3eec3ffb694149"
+  },
+  {
+    "grid": "case118_ieee",
+    "base_points": 3000,
+    "paired_states": 24000,
+    "solver": "pandapower.pypower.newtonpf",
+    "base_voltage_max_pu": 1.8894025815473948e-14,
+    "base_ptdf_max_abs": 5.96013975950882e-08,
+    "paired_residual_max_pu": 1.0542622330689255e-11,
+    "solver_source_sha256": "e3c53f1337fd8ea8d776ddc7822b7847513b3a4482d4a6808822681a67edd804",
+    "dataset_sha256": "d779ef285909d5f736ba23f2eadf3808d3f7740171031b2c0408860d976b55c9"
+  }
+]

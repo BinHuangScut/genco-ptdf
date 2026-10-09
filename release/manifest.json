@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/BinHuangScut/genco-ptdf",
+  "tag": "v0.1.0",
+  "assets": [
+    {
+      "name": "data-case14_ieee.tar.gz",
+      "bytes": 12816982,
+      "sha256": "ad6bb1aa46e28378081b9572e9a5205471594000d931c2f3663b839f9c32ff37",
+      "files": 5,
+      "url": "https://github.com/BinHuangScut/genco-ptdf/releases/download/v0.1.0/data-case14_ieee.tar.gz"
+    },
+    {
+      "name": "data-case118_ieee.tar.gz",
+      "bytes": 321222041,
+      "sha256": "aeb4b27c86b227d9b81db9662712019390b0880ba5650fcdf8ba7727c3a5c4f9",
+      "files": 5,
+      "url": "https://github.com/BinHuangScut/genco-ptdf/releases/download/v0.1.0/data-case118_ieee.tar.gz"
+    },
+    {
+      "name": "models.tar.gz",
+      "bytes": 488625773,
+      "sha256": "b17f76f6d2bdba2f670c177f8e18ad464c9ee2b64e89986a6841f27103cc738f",
+      "files": 58,
+      "url": "https://github.com/BinHuangScut/genco-ptdf/releases/download/v0.1.0/models.tar.gz"
+    },
+    {
+      "name": "figures.tar.gz",
+      "bytes": 5768798,
+      "sha256": "e95d0770cdd0e63cb33236f5e6a26231a632877c41574d68eecd33419cc3e25d",
+      "files": 29,
+      "url": "https://github.com/BinHuangScut/genco-ptdf/releases/download/v0.1.0/figures.tar.gz"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+,voltage_limit,voltage_limit,q_limit,q_limit,p_limit,p_limit,branch_limit,branch_limit
+,sum,mean,sum,mean,sum,mean,sum,mean
+split,,,,,,,,
+stress,41,0.205,200,1.0,13,0.065,0,0.0
+test,0,0.0,400,1.0,0,0.0,0,0.0
+train,0,0.0,2000,1.0,0,0.0,0,0.0
+val,0,0.0,400,1.0,0,0.0,0,0.0

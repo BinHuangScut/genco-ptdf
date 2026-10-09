@@ -1,0 +1,13 @@
+{
+  "title": "GENCO-PTDF: Auditing and Improving Local AC Power-Flow Sensitivities",
+  "entrant": "PowerUp",
+  "entry_type": "individual",
+  "affiliation": "Independent",
+  "contact_email": "bin@smu.edu",
+  "github_account": "BinHuangScut",
+  "huggingface_account": "banw",
+  "repository": "https://github.com/BinHuangScut/genco-ptdf",
+  "release_tag": "v0.1.0",
+  "release": "https://github.com/BinHuangScut/genco-ptdf/releases/tag/v0.1.0",
+  "challenge": "https://huggingface.co/spaces/gridfm/genco-challenge"
+}

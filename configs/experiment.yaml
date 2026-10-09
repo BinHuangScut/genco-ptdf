@@ -1,0 +1,28 @@
+grids: [case14_ieee, case118_ieee]
+data_seed: 20261007
+counts: {train: 2000, val: 400, test: 400, stress: 200}
+global_load: [0.8, 1.2]
+stress_load: [1.2, 1.4]
+local_load: [0.9, 1.1]
+response_steps_mw: [0.1, 1.0]
+transactions: 16
+dispatch_loss_margin: 0.03
+training:
+  seeds: [0, 1, 42]
+  batch_size: 8
+  epochs: 100
+  patience: 10
+  learning_rate: 0.0001
+  response_weight: 1.0
+  validation_directions: 4
+  validation_examples: 400
+  validation_batch_size: 64
+  torch_threads: 2
+  dtype: float32
+  cuda_graph: true
+evaluation:
+  cuda_graph: true
+  derivative_chunk: 16
+  full_matrix_examples: 16
+  batch_sizes: [1, 16, 64]
+  timing_repeats: 20

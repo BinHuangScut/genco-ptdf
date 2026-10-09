@@ -1,0 +1,8 @@
+# Preserve exact bytes for reproducibility-manifest verification across platforms.
+* -text
+*.png binary
+*.pdf binary
+*.pt binary
+*.npz binary
+*.tiff binary
+*.gz binary

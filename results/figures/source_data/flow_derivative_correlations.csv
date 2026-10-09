@@ -1,0 +1,7 @@
+grid,method,n,spearman_rho
+case14_ieee,official_init,600,0.6260481279114664
+case14_ieee,pf,600,0.2240744557623771
+case14_ieee,response,600,0.39545304292511924
+case118_ieee,official_init,600,0.6294326373128813
+case118_ieee,pf,600,0.5074294650818474
+case118_ieee,response,600,0.484822291173031

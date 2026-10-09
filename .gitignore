@@ -1,0 +1,15 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+vendor/
+*.pt
+*.npz
+checkpoints/official/.cache/
+results/logs/
+results/pilot_initial_dispatch/
+results/figures/*.tiff
+*.log
+!results/validation/*.log
+.submission/
+release/*.tar.gz

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genco-ptdf"
+version = "0.1.0"
+description = "Reproducible AC-PTDF benchmarking and response-aware GENCO fine-tuning"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pandapower==3.5.6", "huggingface-hub", "pytest", "pyyaml", "matplotlib"]
+
+[project.scripts]
+genco-ptdf = "genco_ptdf.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["genco_ptdf*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

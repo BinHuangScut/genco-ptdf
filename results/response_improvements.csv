@@ -1,0 +1,5 @@
+grid,split,reduction_percent
+case14_ieee,test,40.62575737128423
+case14_ieee,stress,-14.70804715623193
+case118_ieee,test,68.40059707575863
+case118_ieee,stress,47.35791478134721

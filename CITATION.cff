@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these experiments or derivative tools, please cite this release."
+title: "GENCO-PTDF: Auditing and Improving Local AC Power-Flow Sensitivities"
+type: software
+authors:
+  - family-names: "PowerUp"
+    affiliation: "Independent"
+    email: "bin@smu.edu"
+version: 0.1.0
+date-released: 2026-10-08
+license: Apache-2.0
+repository-code: "https://github.com/BinHuangScut/genco-ptdf"
+url: "https://github.com/BinHuangScut/genco-ptdf/releases/tag/v0.1.0"

@@ -1,0 +1,42 @@
+[
+  {
+    "figure": "01_error_distributions",
+    "svg_text_elements": 58,
+    "size_inches": [
+      7.205,
+      5.0
+    ],
+    "source": "source_data/",
+    "backend": "Python/matplotlib"
+  },
+  {
+    "figure": "02_flow_vs_derivative",
+    "svg_text_elements": 28,
+    "size_inches": [
+      7.205,
+      3.1
+    ],
+    "source": "source_data/",
+    "backend": "Python/matplotlib"
+  },
+  {
+    "figure": "03_finetuning_comparison",
+    "svg_text_elements": 64,
+    "size_inches": [
+      7.205,
+      6.25
+    ],
+    "source": "source_data/",
+    "backend": "Python/matplotlib"
+  },
+  {
+    "figure": "04_accuracy_and_latency",
+    "svg_text_elements": 54,
+    "size_inches": [
+      7.205,
+      5.4
+    ],
+    "source": "source_data/",
+    "backend": "Python/matplotlib"
+  }
+]

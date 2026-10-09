@@ -1,0 +1,24 @@
+[
+  {
+    "grid": "case14_ieee",
+    "n": 16,
+    "transactions": 8,
+    "ptdf_mae": 0.018656693058045435,
+    "ptdf_rmse": 0.03482375478745173,
+    "ptdf_relative": 0.13873112714380695,
+    "sign_agreement": 0.9802143446001649,
+    "max_absolute_error": 0.31900030374526966,
+    "flow_mae_mw": 2.4917888209407586
+  },
+  {
+    "grid": "case118_ieee",
+    "n": 16,
+    "transactions": 16,
+    "ptdf_mae": 0.005873853673226555,
+    "ptdf_rmse": 0.013753064409887173,
+    "ptdf_relative": 0.10388372601109591,
+    "sign_agreement": 0.9470513912966826,
+    "max_absolute_error": 0.34162542968988496,
+    "flow_mae_mw": 1.5148852005759552
+  }
+]

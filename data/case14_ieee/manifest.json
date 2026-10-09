@@ -1,0 +1,191 @@
+{
+  "grid": "case14_ieee",
+  "config": {
+    "grids": [
+      "case14_ieee",
+      "case118_ieee"
+    ],
+    "data_seed": 20261007,
+    "counts": {
+      "train": 2000,
+      "val": 400,
+      "test": 400,
+      "stress": 200
+    },
+    "global_load": [
+      0.8,
+      1.2
+    ],
+    "stress_load": [
+      1.2,
+      1.4
+    ],
+    "local_load": [
+      0.9,
+      1.1
+    ],
+    "response_steps_mw": [
+      0.1,
+      1.0
+    ],
+    "transactions": 16,
+    "dispatch_loss_margin": 0.03,
+    "training": {
+      "seeds": [
+        0,
+        1,
+        42
+      ],
+      "batch_size": 8,
+      "epochs": 100,
+      "patience": 10,
+      "learning_rate": 0.0001,
+      "response_weight": 1.0,
+      "validation_directions": 4,
+      "validation_examples": 32,
+      "torch_threads": 2,
+      "dtype": "float32",
+      "cuda_graph": true
+    },
+    "evaluation": {
+      "derivative_chunk": 16,
+      "full_matrix_examples": 16,
+      "batch_sizes": [
+        1,
+        16,
+        64
+      ],
+      "timing_repeats": 20
+    }
+  },
+  "counts": {
+    "train": 2000,
+    "val": 400,
+    "test": 400,
+    "stress": 200
+  },
+  "sampler": "project uniform global/local scaling on DataKit Network",
+  "solver": "sparse Newton using pandapower analytic derivatives and DataKit Ybus",
+  "dispatch": "base Pg shares normalized to total Pd times (1+fixed loss margin); reference balances actual losses",
+  "fixed_vm": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fixed_va_rad": [
+    0.0
+  ],
+  "nonref_bus_ids": [
+    2,
+    3,
+    6,
+    8,
+    4,
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "injection_gen_weights": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "case_sha256": "12cb178d223783496eaf467d22e3e76ed447a097dc3ac33aa8be4c56b6011ab2",
+  "dataset_sha256": "0af363565eb587ca61fe62924e54ca7f84c0b758f6762191ca3eec3ffb694149",
+  "generation_seconds": 78.01505402999999,
+  "nonconvergent": 0,
+  "control_mode_switching": false
+}

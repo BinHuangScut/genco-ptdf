@@ -1,0 +1,1 @@
+Verified: 6,000 grouped points, 12 fine-tunes, 10,800 test records, 576 complete matrices, 48 timing rows, 4 figure bundles.
